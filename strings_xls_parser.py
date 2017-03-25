@@ -61,7 +61,8 @@ def printFile(dict_list):
 	file.write(CONST_FILE_HEADER)
 	file.write(CONST_RESOURCE_START)
 	for key, value in dict_list.iteritems():
-		valuesString = CONST_STRING_RES.format(key = key.encode('ascii','ignore'), val = value.encode('ascii','ignore'))
+		valuesString = CONST_STRING_RES.format(key = key.encode('ascii','ignore'), \
+                                                       val = value.encode('ascii','ignore'))
 		file.write(valuesString)
 
 	file.write(CONST_RESOURCE_END)
