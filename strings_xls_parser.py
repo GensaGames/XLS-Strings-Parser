@@ -7,7 +7,7 @@ import os.path
 import xlrd
 
 # -------------------------------------------------
-# --------------- Main Contsts here ---------------
+# --------------- Main Consts here ---------------
 # -------------------------------------------------
 CONST_RESULT_FILE = "string.xml"
 CONST_FILE_HEADER = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
